@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
+  	<title>HALAMAN HOME</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,8 +10,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+	<style>
+	 	.color {
+			border-left:blue 8px;
+			padding-left:10px;
+		}
+	</style>
 
-    <title>HALAMAN HOME</title>
+    
   </head>
   <body>
     <br>
@@ -18,13 +25,13 @@
     	<div class="row">
     		<div class="col-6" Style="">
     			<h1>1 on 1 Tutoring</h1>
-    			<p>Lorem Ipsum adalah contoh teks atau dummy dalam industri percetakan dan penataan huruf atau typesetting. Lorem Ipsum telah menjadi standar contoh teks sejak tahun 1500an, saat seorang tukang cetak yang tidak dikenal mengambil sebuah kumpulan teks dan mengacaknya untuk menjadi sebuah buku contoh huruf. Ia tidak hanya bertahan selama 5 abad, tapi juga telah beralih ke penataan huruf elektronik, tanpa ada perubahan apapun. Ia mulai dipopulerkan pada tahun 1960 dengan diluncurkannya lembaran-lembaran Letraset yang menggunakan kalimat-kalimat dari Lorem Ipsum, dan seiring munculnya perangkat lunak Desktop Publishing seperti Aldus PageMaker juga memiliki versi Lorem Ipsum.</p>
+    			<p>Lorem Ipsum adalah contoh teks atau dummy dalam industri percetakan dan penataan huruf atau typesetting. Lorem Ipsum telah menjadi standar contoh teks sejak tahun 1500an, saat seorang tukang </p>
     			<div class="row">
     				<div class="col-3" Style="">
-    					<a href="#" class="btn btn-primary rounded-pill btn-lg active" role="button" aria-pressed="true">LOG-IN</a>
+    					<button class="btn btn-primary rounded-pill" type="submit">login</button>
     				</div>
-    				<div class="col-3" Style="">
-    					<a href="#" class="btn btn-secondary rounded-pill btn-lg active" role="button" aria-pressed="true">SIGN-IN</a>
+    				<div class="col-3" Style=" margin-left:20px">
+    					<button class="btn btn-dark rounded-pill" type="submit">join</button>
     				</div>
     			</div>
     		</div>
@@ -33,19 +40,19 @@
     		</div>
 
     		<div class="row">
-    			<div class="col-6" Style="">
+    			<div class="col-6">
     				<h1>Our Process & Philosophy</h1>
     				<h4><i class="fas fa-check-circle" style="color:blue"></i> normal</h4>
     				<h4><i class="fas fa-check-circle" style="color:blue"></i> Good</h4>
     				<h4><i class="fas fa-check-circle" style="color:blue"></i> Very Good</h4>
     				<h4><i class="fas fa-check-circle" style="color:blue"></i> Expert</h4>
     			</div>
-    			<div class="col-6" Style="">
-    				<h1>I Can't Belive How Fast my Test Score Improved!</h1>
-    				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+    			<div class="col-6">
+    				<h1 class="color">I Can't Belive How Fast my Test Score Improved!</h1>
+    				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis e </p>
     				<div class="row">
      					<div class="col-4" Style="">
-    						<a href="#" class="btn btn-primary rounded-pill btn-lg active" role="button" aria-pressed="true">GO CHECK</a></div>
+    						<button class="btn btn-primary rounded-pill" type="submit">Join</button></div>
     				</div>
     			</div>
     		</div>
@@ -54,9 +61,9 @@
     			<div class="col-12 bg-info" Style="border-radius:30px">
     				<br>
     				<h1>Schedule a Free Consultan Today!</h1>
-    				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+    				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, .</p>
      					<div class="col" align="center" Style="">
-    						<a href="#" class="btn btn-primary rounded-pill btn-lg active" role="button" aria-pressed="true">WATCH OUT</a></div>
+    						<button class="btn btn-primary rounded-pill" type="submit">Go Check</button></div>
     				<br>
     			</div>
     		</div>
@@ -85,20 +92,20 @@
   				</div>
   				<div class="row">
      					<div class="col" align="center" Style="">
-    						<a href="#" class="btn btn-primary rounded-pill btn-lg active" role="button" aria-pressed="true">START</a></div>
+    						<button class="btn btn-primary rounded-pill" type="submit">start</button></div>
     				</div>
   			</div>
 
-  			<div class="row row-cols-2" align="center">
-  				<div class="col" style="">
+  			<div class="row" align="center">
+  				<div class="col-6">
   					<br><br><br>
   					<h4><i class="fas fa-mobile"></i></h4>
-  					<h4>Call</h4>
+  					<p>(+62)89685345782)</p>
   				</div>
-  				<div class="col" style="">
+  				<div class="col-6">
   					<br><br><br>
   					<h4><i class="fas fa-envelope-open"></i></h4>
-  					<h4>Message</h4>
+  					<p>milaamaliad@gmail.com</p>
   				</div>
  			 </div>
  			 <div class="footer">
